@@ -1,0 +1,17 @@
+#Foto{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+}
+
+#Container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    margin: 10px;
+    margin-bottom: 0px;
+}

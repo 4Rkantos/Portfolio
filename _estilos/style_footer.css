@@ -1,0 +1,22 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#rodape{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#titulo_contato{
+    display: flex;
+    justify-content: ;
+}
+
+.links{
+    
+}

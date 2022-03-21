@@ -1,0 +1,31 @@
+body{
+    font-family: Hubballi;
+    color: #F5EDF0;
+    background-color: #36151E;
+    margin:0;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+h1,h2,h3,p{
+    margin: 10px;
+    border: 0px;
+    padding: 0px;
+}
+
+#Container_projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+#descricao{
+    text-align: center;
+}
