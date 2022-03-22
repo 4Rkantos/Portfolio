@@ -1,36 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hubballi">
     <link rel="stylesheet" href="../_estilos/style.css">
     <link rel="stylesheet" href="../_estilos/style_header.css">
+    <link rel="stylesheet" href="../_estilos/style_container.css">
     <link rel="stylesheet" href="../_estilos/style_footer.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="https://docs.google.com/document/d/1LIA-1wJjQKFfcogtsWdQJ3TM38PZ2SdqIOukKb1I4k8/edit?usp=sharing">Currículo</a></li>
-                <li><a href="_paginas/projetos.html">Projetos</a></li>
+                <li><a href="João Vitor Rocha e Silva -Currículo.pdf" target="_blank">Currículo</a></li>
+                <li><a href="../_paginas/projetos.html">Projetos</a></li>
                 <li><a href="../index.html">Home</a></li>
             </ul>
         </nav>
     </header>
+
     <div id="Container_projetos">
-        <h2>Projetos</h2>
-        <h3>Portfólio</h3>
-        <p>Um website desenvolvido em JavaScript, HTML e CSS para apresentação das minhas habilidades e projetos.</p>
-    
+        <div class="Projetos">
+            <h2>Portfólio</h2>
+            <p>Um website desenvolvido em HTML e CSS para apresentação das minhas habilidades e projetos.</p>
+            <img src="../_imagens/Port.png" alt="Portfolio" class="port">
+        </div>
+
+        <div class="Projetos">
+            <h2>Perguntas e Respostas</h2>
+            <p class="paragrafo">Uma aplicação simples desenvolvida em Dart e Flutter. Consiste na escolha entre as
+                alternativas, cada uma com uma pontuação diferente, ao fim das perguntas o usuário recebe uma mensagem
+                de acordo com a sua pontuação e tem a opção de reiniciar o questionário</p>
+            <img id="video" src="../_imagens/P&R.gif" alt="Perguntas e Respostas">
+        </div>
     </div>
 
     <footer>
         <div id="rodape">
             <div id="titulo_contato">Contatos<br>
                 jvrocha.stm@gmail.com - (93)981001842
-
+                <div>
+                    <a href="https://www.linkedin.com/in/joão-vitor-rocha-e-silva-a02a40196/" target="_blanck"><img
+                            class="links" src="../_imagens/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://github.com/4Rkantos" target="_blanck"><img class="links"
+                            src="../_imagens/github.svg" alt="linkedin"></a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
-</html>
 
+</html>

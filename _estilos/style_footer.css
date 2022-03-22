@@ -3,20 +3,23 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-
 }
 
 #rodape{
     display:flex;
     justify-content: center;
     text-align: center;
+    padding: 5px;
+    background-color: #EF233C;
 }
 
 #titulo_contato{
     display: flex;
-    justify-content: ;
+    color: black;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .links{
-    
+    width: 50px;
 }
